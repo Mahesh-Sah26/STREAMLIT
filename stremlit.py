@@ -1,0 +1,10 @@
+import streamlit as st
+st.title('My Demo App')
+st.header('Student Enrollment')
+st.subheader('Enrollment From')
+st.text('This is student enrollment form')
+st.write('Enter your details')
+st.markdown('# This is bigger header')
+st.markdown('## This is bigger and **bold** click')
+st.code('print(Hello world)')
+st.code('def display_message(message):\n\tprint(message)')
